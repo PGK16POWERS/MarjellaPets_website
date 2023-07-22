@@ -15,6 +15,9 @@ button {
 
 body {
     overflow-x: hidden;
+    background-image: url(/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 :root {
