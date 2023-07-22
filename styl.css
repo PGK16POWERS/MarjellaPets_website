@@ -123,4 +123,8 @@ ul li:nth-child(5) a {
     color: white;
 }
 
+.hs-req-btn:hover,
+.hs-req-btn:active {
+    background-color: #07617f;
+}
 /**** HERO SECTION ****/
