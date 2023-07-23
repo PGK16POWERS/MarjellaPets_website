@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    overflow-x: hidden;
+    background-image: url(/2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+:root {
+    --monts: 'Montserrat', sans-serif;
+    --nuns: 'Nunito Sans', sans-serif;
+    --pops: 'Poppins', sans-serif;
+    --arch: 'Archivo', sans-serif;
+    --prom: 'Prompt', sans-serif;
+}
+
+/**** HEADER SECTION ****/
+header {
+    height: 10vh;
+    display: flex;
+    padding: 0 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: var(--monts);
+    font-size: 1.6em;
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+.nav-link {
+    font-family: var(--monts);
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+}
+
+ul li:nth-child(5) a {
+    padding: 0.5rem 2rem;
+    background-color: dodgerblue;
+    border: 0 solid transparent;
+    font-weight: 500;
+    border-radius: 16px;
+}
+
+/**** HEADER SECTION ****/
+
+/**** HERO-SECTION ****/
+#hero-section {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-left: 8rem;
+}
+
+.hero-section-content-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-bottom: 10rem;
+   
+}
+
+.hero-sect-para {
+    font-size: 4em;
+    letter-spacing: 2px;
+    font-family: var(--arch);
+    color: white; 
+    font-weight: 800;
+}
+
+.deep-blue {
+    color: #365b6d;
+}
+
+.blue-text {
+    color: #00aeff
+}
+
+.small-para {
+    font-size: 1.4em;
+    font-family: var(--monts);
+    font-weight: 300;
+    width: 80%;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #365b6d
+}
+
+.hs-req-btn {
+    padding: 1rem 1.5rem;
+    width: max-content;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-family: var(--arch);
+    border: 0 solid transparent;
+    border-radius: 3px;
+    background-color: #84b6c7;
+    color: white;
+}
+
+.hs-req-btn:hover,
+.hs-req-btn:active {
+    background-color: #07617f;
+}
+/**** HERO SECTION ****/
