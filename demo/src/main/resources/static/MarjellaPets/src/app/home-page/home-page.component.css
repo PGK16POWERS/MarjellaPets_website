@@ -28,5 +28,26 @@
     gap: 1.5rem;
     width: 100%;
     max-width: 600px;
-    
 }
+
+
+
+/* #defa-section-1 SECTION STYLES */
+
+#defa-section-1 .section-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+}
+
+.img-side {
+    background-color: #ffe5d9;
+    padding: 2rem;
+    border: 0 solid transparent;
+    border-radius: 16px;
+    width: 100%;
+}
+
+
+/* #defa-section-1 SECTION STYLES */
