@@ -43,7 +43,7 @@
 
 #default-section {
     min-height: 50vh;
-    padding: 5rem 0;
+    margin: 3rem 0;
 }
 
 #default-section .section-container {
@@ -83,6 +83,7 @@
 
 #cta-1 {
     min-height: 50vh;
+    margin: 2rem 0 ;
 }
 
 #cta-1 .section-container {
@@ -105,6 +106,10 @@
 /* CTA 1 SECTION STYLES */
 
 /*  FEATURES SETION STYLE */
+
+#features-section {
+    margin: 2rem 0;
+}
 
 #features-section .section-container, #features-section-2 .section-container {
     padding: 0;

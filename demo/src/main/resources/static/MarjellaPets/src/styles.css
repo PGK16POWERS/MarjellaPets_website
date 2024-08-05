@@ -70,23 +70,28 @@ footer {
     align-items: center;
     background: linear-gradient(to right, #f87e47 0%, #e8672d 100%);
     padding: 5rem 2rem;
-    width:100vw
+    width:100vw;
+    
 }
 
 footer .section-container {
     padding: 0;
     width: 100vw;
     max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 footer .main-header {
     color: #ffe5d9;
 }
 
-.footer-parent-div {
+.footer-parent-div, .footer-parent-div nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .button-div {
@@ -103,6 +108,19 @@ footer .main-header {
 .white-bg {
     background-color: #ffe5d9;
     color: #f87e47;
+}
+
+footer .para, .footer-link {
+    font-size: .9em;
+    color: #ffe5d9;
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
 }
 
 /* FOOTER STYLES */
