@@ -35,6 +35,11 @@ body {
     font-weight: 500;
 }
 
+.inner-sub-header {
+    font-size: 1em;
+    font-weight: 500;
+}
+
 .orang-button {
     background-color: #f87e47;
     border: 0 solid transparent;
