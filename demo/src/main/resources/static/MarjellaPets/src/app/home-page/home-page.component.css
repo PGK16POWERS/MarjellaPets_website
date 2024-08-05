@@ -104,8 +104,21 @@
     padding: 0;
 }
 
+.features-parent-div {
+    border: 2px solid #161616;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: auto;
+}
 
-
+.feature {
+    border: 2px dashed #60301B;
+}
 
 
 
